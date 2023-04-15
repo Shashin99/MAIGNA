@@ -1,0 +1,132 @@
+.slide{
+    width: 90%;
+    margin: 5% auto;
+}
+
+.slide img{
+    width: 100%;
+    height: 500px;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h2 {
+    font: 700 36px 'Oswald', sans-serif;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+}
+
+h4{
+    margin-top: 90px;
+}
+
+#content{
+    height: 330px;
+    width: 60%;
+    margin: auto;
+    font-size: 25px;
+    color: black;
+    text-transform: none;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 50px;
+}
+
+hr {
+    max-width: 5em;
+    margin-bottom: 30px;
+}
+
+.allCategory {
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.categoryContainer {
+    display: inline-block;
+    position: relative;
+    height: 250px;
+    width: 400px;
+    margin: 20px ;
+    padding: 3px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+    border-collapse: separate;
+    background-color: #222;
+}
+
+.categoryContainer:focus,
+.categoryContainer:active,
+.categoryContainer:hover {
+    border-radius: 80%;
+    outline: none;
+}
+
+.cat {
+    height: 250px;
+    width: 280px;
+    background-size: cover;
+    transition: all .2s ease-in-out;
+    transform: scale(1.5);
+    outline: none;
+    overflow: hidden;
+    clip-path: polygon(0 100%, 0 0, 52% 0, 52% 100%);
+    clip-path: polygon(0 100%, 0 0, 100% 0, 100% 100%);
+}
+
+
+.categoryContainer:hover .cat {
+    clip-path: polygon(50% 100%, 50% 0, 100% 0, 100% 100%);
+    transform: scale(1.1);
+
+}
+
+.categoryContainer:hover .catName {
+    left: 20px;
+    opacity: 1;
+}
+
+.catName {
+    position: absolute;
+    top: 35px;
+    left: 120px;
+    height: 300px;
+    width: 100px;
+    transition: all .4s ease-in-out;
+    transition-delay: .1s;
+    opacity: 0;
+    text-align: right;
+}
+
+.catName h4 {
+    font-size: 14px;
+    margin-bottom: -8px;
+}
+
+.glaptop
+ {
+    background-image: url("Images/image1.jfif");
+    background-position: 0 0;
+}
+
+.llaptop {
+    background-image: url("Images/image2.jpg");
+}
+
+.apc {
+    background-image: url("Images/image4.jpg");
+    background-position: 50% 90%;
+}
+
+.acc {
+    background-image: url("Images/image5.jpg");
+    background-position: 50% 90%;
+}
